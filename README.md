@@ -3,6 +3,6 @@ I created this model to try to come up with an algorithm that could make earning
 
 1) Predicted the finish times of each horse by using a simple linear regression
 2) Used the results of the finish time to fit a logistic regression to determine whether or not my model with predicted finish time and count adds significance to the original model that just fits the betting odds to a logistic regression.
-3) I compared my betting strategy, an odds betting strategy, and a random betting strategy by simulating around 1000 races 100 times.  I compared the three different strategies using a Welches T-test.
+3) I compared my betting strategy, an odds betting strategy, and a random betting strategy by simulating around 1000 races 1000 times.  I compared the three different strategies using a Welches T-test.
 
 In the end, all models lost money, though my model that included the predicted finish times lost less money.  This model could be improved by using conditional logistic regression because my original one violated the independence assumption.  
